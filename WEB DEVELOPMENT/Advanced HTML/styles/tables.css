@@ -1,0 +1,8 @@
+tables, th, td {
+    border:solid black;
+    border-collapse: collapse;
+  
+}
+table, th, td {border: 1px solid black; border-collapse: collapse;}
+td:nth-child(even), th:nth-child(even) {background-color: #3f4579;}
+tr:nth-child(even) {background-color: #022c2c;}

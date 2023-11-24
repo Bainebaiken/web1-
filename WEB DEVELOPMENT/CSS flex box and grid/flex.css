@@ -1,0 +1,75 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container-colum{
+    display: flexbox;
+    background-color: aqua;
+  }
+  .flex-container-colum > div {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+  }
+  .column-reverse{
+    flex-direction: column-reverse;
+    background-color: aqua;
+  }
+  .column-reverse > div {
+    background-color: rgb(146, 127, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    flex-direction: column-reverse;
+  }
+  .flex-wrap{
+    display: flex;  
+  flex-wrap: wrap;
+ 
+  }
+  .flex-wrap > div {
+    background-color: rgb(146, 127, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    flex-wrap: wrap-reverse;
+  }
+  .flex-flow{
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+  }
+  .flex-flow > div {
+    background-color: rgb(146, 127, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    justify-content: first baseline;
+  }
+  .justify-content{
+    justify-content: center;
+    background-color: aqua;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .justify-content > div {
+    background-color: rgb(146, 127, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    
+  }
